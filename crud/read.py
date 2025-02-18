@@ -1,9 +1,9 @@
 import mysql.connector
 
 conexao = mysql.connector.connect(
-    host='localhost',
-    user='root',
-    password='Gandalf@1234r',
+    host='crud-instance.c1uka62e40t7.sa-east-1.rds.amazonaws.com',
+    user='admin',
+    password='Impacta-2025',
     database='crud',
 )
 
